@@ -19,6 +19,8 @@
 				<Item Name="Show Panel Argument--cluster.ctl" Type="VI" URL="../Show Panel Argument--cluster.ctl"/>
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
+				<Item Name="Launch all Hardware Argument--cluster.ctl" Type="VI" URL="../Launch all Hardware Argument--cluster.ctl"/>
+				<Item Name="Launch all Hardware (Reply Payload)--cluster.ctl" Type="VI" URL="../Launch all Hardware (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -33,6 +35,7 @@
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
+			<Item Name="Launch all Hardware.vi" Type="VI" URL="../Launch all Hardware.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -57,8 +60,10 @@
 		<Item Name="Private Requests" Type="Folder">
 			<Item Name="Priv Req Arguments" Type="Folder">
 				<Item Name="Start System State Broadcast Helper Loop Argument--cluster.ctl" Type="VI" URL="../Start System State Broadcast Helper Loop Argument--cluster.ctl"/>
+				<Item Name="Launch EtherCat Argument--cluster.ctl" Type="VI" URL="../Launch EtherCat Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Start System State Broadcast Helper Loop.vi" Type="VI" URL="../Start System State Broadcast Helper Loop.vi"/>
+			<Item Name="Launch EtherCat.vi" Type="VI" URL="../Launch EtherCat.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
