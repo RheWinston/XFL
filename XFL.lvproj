@@ -11,7 +11,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Global Typedefs" Type="Folder"/>
+		<Item Name="Global Typedefs" Type="Folder">
+			<Item Name="EtherCAT Configuration.ctl" Type="VI" URL="../EtherCAT Configuration.ctl"/>
+		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="EtherCAT Model.lvlib" Type="Library" URL="../Libraries/EtherCAT Model/EtherCAT Model.lvlib"/>
 		</Item>

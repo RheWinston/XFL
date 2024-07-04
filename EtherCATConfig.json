@@ -1,0 +1,66 @@
+
+{
+    "Setup":{
+    "ENI File": "C:/Users/eiked/OneDrive/Desktop/NoIDNoEoEENI.xml",
+    "Drives":[
+      {
+        "Drive Key": "Turbine",
+        "Read Variables": [
+            {"Name": "Ready to switch on", "Index":39, "Bit": 0, "Type": "BOOL"},
+            {"Name": "Switch on", "Index":39, "Bit": 1, "Type": "BOOL"},
+            {"Name": "Operation enabled", "Index":39, "Bit": 2, "Type": "BOOL"},
+            {"Name": "Fault", "Index":39, "Bit": 3, "Type": "BOOL"},
+            {"Name": "Voltage Enabled", "Index":39, "Bit": 4, "Type": "BOOL"},
+            {"Name": "Quick Stop", "Index":39, "Bit": 5, "Type": "BOOL"},
+            {"Name": "Switch on disabled", "Index":39, "Bit": 6, "Type": "BOOL"},
+            {"Name": "Warning", "Index":39, "Bit": 7, "Type": "BOOL"},
+            {"Name": "Remote", "Index":39, "Bit": 9, "Type": "BOOL"},
+            {"Name": "Target reached", "Index":39, "Bit": 10, "Type": "BOOL"},
+            {"Name": "Incorrect drive mode", "Index":39, "Bit": 14, "Type": "BOOL"},
+            {"Name": "Velocity Actual", "Index": 41, "Bit": 0, "Type": "INT16"},
+            {"Name": "Process Data Out 1", "Index": 43, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Process Data Out 2", "Index": 45, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Process Data Out 3", "Index": 47, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Process Data Out 4", "Index": 49, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Process Data Out 5", "Index": 51, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Process Data Out 6", "Index": 53, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Process Data Out 7", "Index": 55, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Process Data Out 8", "Index": 57, "Bit": 0, "Type": "UINT16"}
+        ],
+        "Write Variables":[
+            {"Name": "Control Word", "Index": 39},
+            {"Name": "Target Velocity", "Index": 41}
+        ]
+      },
+      {
+        "Drive Key": "Pump",
+        "Read Variables": [
+          {"Name": "Ready to switch on", "Index":65, "Bit": 0, "Type": "BOOL"},
+          {"Name": "Switch on", "Index":65, "Bit": 1, "Type": "BOOL"},
+          {"Name": "Operation enabled", "Index":65, "Bit": 2, "Type": "BOOL"},
+          {"Name": "Fault", "Index":65, "Bit": 3, "Type": "BOOL"},
+          {"Name": "Voltage Enabled", "Index":65, "Bit": 4, "Type": "BOOL"},
+          {"Name": "Quick Stop", "Index":65, "Bit": 5, "Type": "BOOL"},
+          {"Name": "Switch on disabled", "Index":65, "Bit": 6, "Type": "BOOL"},
+          {"Name": "Warning", "Index":65, "Bit": 7, "Type": "BOOL"},
+          {"Name": "Remote", "Index":65, "Bit": 9, "Type": "BOOL"},
+          {"Name": "Target reached", "Index":65, "Bit": 10, "Type": "BOOL"},
+          {"Name": "Incorrect drive mode", "Index":65, "Bit": 14, "Type": "BOOL"},
+            {"Name": "Velocity Actual", "Index": 67, "Bit": 0, "Type": "INT16"},
+            {"Name": "Process Data Out 1", "Index": 69, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Process Data Out 2", "Index": 71, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Process Data Out 3", "Index": 73, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Process Data Out 4", "Index": 75, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Process Data Out 5", "Index": 77, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Process Data Out 6", "Index": 79, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Process Data Out 7", "Index": 81, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Process Data Out 8", "Index": 83, "Bit": 0, "Type": "UINT16"}
+        ],
+        "Write Variables":[
+            {"Name": "Control Word", "Index": 65},
+            {"Name": "Target Velocity", "Index": 67}
+        ]
+      }
+    ]
+}
+  }
