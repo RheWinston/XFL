@@ -99,6 +99,9 @@
 		<Item Name="EtherCAT Configuration" Type="Folder">
 			<Item Name="Load EtherCAT Configuration.vi" Type="VI" URL="../Load EtherCAT Configuration.vi"/>
 		</Item>
+		<Item Name="EtherCAT Init" Type="Folder">
+			<Item Name="EtherCAT System State Init.vi" Type="VI" URL="../EtherCAT System State Init.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
