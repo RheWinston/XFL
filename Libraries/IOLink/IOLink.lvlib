@@ -98,6 +98,9 @@
 		<Item Name="Wait on Event Sync.vi" Type="VI" URL="../Wait on Event Sync.vi"/>
 		<Item Name="Wait on Module Sync.vi" Type="VI" URL="../Wait on Module Sync.vi"/>
 	</Item>
+	<Item Name="Module Specific" Type="Folder">
+		<Item Name="Cast Sensor Data.vi" Type="VI" URL="../Cast Sensor Data.vi"/>
+	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
