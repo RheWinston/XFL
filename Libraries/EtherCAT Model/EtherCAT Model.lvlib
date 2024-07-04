@@ -21,6 +21,8 @@
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Load Configuration Argument--cluster.ctl" Type="VI" URL="../Load Configuration Argument--cluster.ctl"/>
 				<Item Name="Load Configuration (Reply Payload)--cluster.ctl" Type="VI" URL="../Load Configuration (Reply Payload)--cluster.ctl"/>
+				<Item Name="Start Connection Argument--cluster.ctl" Type="VI" URL="../Start Connection Argument--cluster.ctl"/>
+				<Item Name="Start Connection (Reply Payload)--cluster.ctl" Type="VI" URL="../Start Connection (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -35,6 +37,7 @@
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Load Configuration.vi" Type="VI" URL="../Load Configuration.vi"/>
+			<Item Name="Start Connection.vi" Type="VI" URL="../Start Connection.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
