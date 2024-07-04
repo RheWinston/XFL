@@ -23,6 +23,8 @@
 				<Item Name="Load Configuration (Reply Payload)--cluster.ctl" Type="VI" URL="../Load Configuration (Reply Payload)--cluster.ctl"/>
 				<Item Name="Start Connection Argument--cluster.ctl" Type="VI" URL="../Start Connection Argument--cluster.ctl"/>
 				<Item Name="Start Connection (Reply Payload)--cluster.ctl" Type="VI" URL="../Start Connection (Reply Payload)--cluster.ctl"/>
+				<Item Name="Close Connection Argument--cluster.ctl" Type="VI" URL="../Close Connection Argument--cluster.ctl"/>
+				<Item Name="Close Connection (Reply Payload)--cluster.ctl" Type="VI" URL="../Close Connection (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -38,6 +40,7 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Load Configuration.vi" Type="VI" URL="../Load Configuration.vi"/>
 			<Item Name="Start Connection.vi" Type="VI" URL="../Start Connection.vi"/>
+			<Item Name="Close Connection.vi" Type="VI" URL="../Close Connection.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -100,6 +103,13 @@
 		<Item Name="Synchronize Caller Events.vi" Type="VI" URL="../Synchronize Caller Events.vi"/>
 		<Item Name="Wait on Event Sync.vi" Type="VI" URL="../Wait on Event Sync.vi"/>
 		<Item Name="Wait on Module Sync.vi" Type="VI" URL="../Wait on Module Sync.vi"/>
+	</Item>
+	<Item Name="Module Constants" Type="Folder">
+		<Item Name="Bus Cycle--constant.vi" Type="VI" URL="../Bus Cycle--constant.vi"/>
+		<Item Name="Number of Retry Connection--constant.vi" Type="VI" URL="../Number of Retry Connection--constant.vi"/>
+	</Item>
+	<Item Name="Module Errors" Type="Folder">
+		<Item Name="EtherCAT Start Connection Error --6201.vi" Type="VI" URL="../EtherCAT Start Connection Error --6201.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
