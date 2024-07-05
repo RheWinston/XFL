@@ -141,6 +141,7 @@
 		<Item Name="Get Write Map.vi" Type="VI" URL="../Get Write Map.vi"/>
 		<Item Name="Initialize EtherCAT Output Frame.vi" Type="VI" URL="../Initialize EtherCAT Output Frame.vi"/>
 		<Item Name="Read Output Conversion.vi" Type="VI" URL="../Read Output Conversion.vi"/>
+		<Item Name="Write Output Conversion.vi" Type="VI" URL="../Write Output Conversion.vi"/>
 	</Item>
 	<Item Name="Module Typedef" Type="Folder">
 		<Item Name="Write Context Typedef.ctl" Type="VI" URL="../Write Context Typedef.ctl"/>
