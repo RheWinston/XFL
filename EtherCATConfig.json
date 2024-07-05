@@ -1,7 +1,7 @@
 
 {
     "Setup":{
-    "ENI File": "C:/Users/eiked/OneDrive/Desktop/NoIDNoEoEENI.xml",
+    "ENI File": "C:\Users\LarissaControlSystem\Documents\GitHub\XFL\NoIDNoEoEENI.xml",
     "Drives":[
       {
         "Drive Key": "Turbine",
@@ -18,18 +18,18 @@
             {"Name": "Target reached", "Index":39, "Bit": 10, "Type": "BOOL"},
             {"Name": "Incorrect drive mode", "Index":39, "Bit": 14, "Type": "BOOL"},
             {"Name": "Velocity Actual", "Index": 41, "Bit": 0, "Type": "INT16"},
-            {"Name": "Process Data Out 1", "Index": 43, "Bit": 0, "Type": "UINT16"},
-            {"Name": "Process Data Out 2", "Index": 45, "Bit": 0, "Type": "UINT16"},
-            {"Name": "Process Data Out 3", "Index": 47, "Bit": 0, "Type": "UINT16"},
-            {"Name": "Process Data Out 4", "Index": 49, "Bit": 0, "Type": "UINT16"},
-            {"Name": "Process Data Out 5", "Index": 51, "Bit": 0, "Type": "UINT16"},
-            {"Name": "Process Data Out 6", "Index": 53, "Bit": 0, "Type": "UINT16"},
-            {"Name": "Process Data Out 7", "Index": 55, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Output Frequency", "Index": 43, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Motor Speed", "Index": 45, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Motor Current", "Index": 47, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Motor Torque", "Index": 49, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Motor Power", "Index": 51, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Motor Voltage", "Index": 53, "Bit": 0, "Type": "UINT16"},
+            {"Name": "DC Link Voltage", "Index": 55, "Bit": 0, "Type": "UINT16"},
             {"Name": "Process Data Out 8", "Index": 57, "Bit": 0, "Type": "UINT16"}
         ],
         "Write Variables":[
-            {"Name": "Control Word", "Index": 39},
-            {"Name": "Target Velocity", "Index": 41}
+            {"Name": "Control Word", "Index": 39, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Target Velocity", "Index": 41, "Bit": 0, "Type": "INT16"}
         ]
       },
       {
@@ -47,18 +47,18 @@
           {"Name": "Target reached", "Index":65, "Bit": 10, "Type": "BOOL"},
           {"Name": "Incorrect drive mode", "Index":65, "Bit": 14, "Type": "BOOL"},
             {"Name": "Velocity Actual", "Index": 67, "Bit": 0, "Type": "INT16"},
-            {"Name": "Process Data Out 1", "Index": 69, "Bit": 0, "Type": "UINT16"},
-            {"Name": "Process Data Out 2", "Index": 71, "Bit": 0, "Type": "UINT16"},
-            {"Name": "Process Data Out 3", "Index": 73, "Bit": 0, "Type": "UINT16"},
-            {"Name": "Process Data Out 4", "Index": 75, "Bit": 0, "Type": "UINT16"},
-            {"Name": "Process Data Out 5", "Index": 77, "Bit": 0, "Type": "UINT16"},
-            {"Name": "Process Data Out 6", "Index": 79, "Bit": 0, "Type": "UINT16"},
-            {"Name": "Process Data Out 7", "Index": 81, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Output Frequency", "Index": 69, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Motor Speed", "Index": 71, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Motor Current", "Index": 73, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Motor Torque", "Index": 75, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Motor Power", "Index": 77, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Motor Voltage", "Index": 79, "Bit": 0, "Type": "UINT16"},
+            {"Name": "DC Link Voltage", "Index": 81, "Bit": 0, "Type": "UINT16"},
             {"Name": "Process Data Out 8", "Index": 83, "Bit": 0, "Type": "UINT16"}
         ],
         "Write Variables":[
-            {"Name": "Control Word", "Index": 65},
-            {"Name": "Target Velocity", "Index": 67}
+            {"Name": "Control Word", "Index": 65, "Bit": 0, "Type": "UINT16"},
+            {"Name": "Target Velocity", "Index": 67, "Bit": 0, "Type": "INT16"}
         ]
       }
     ]

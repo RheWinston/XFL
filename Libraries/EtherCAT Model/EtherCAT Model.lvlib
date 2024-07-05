@@ -19,11 +19,24 @@
 				<Item Name="Show Panel Argument--cluster.ctl" Type="VI" URL="../Show Panel Argument--cluster.ctl"/>
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
+				<Item Name="Load Configuration Argument--cluster.ctl" Type="VI" URL="../Load Configuration Argument--cluster.ctl"/>
+				<Item Name="Load Configuration (Reply Payload)--cluster.ctl" Type="VI" URL="../Load Configuration (Reply Payload)--cluster.ctl"/>
+				<Item Name="Start Connection Argument--cluster.ctl" Type="VI" URL="../Start Connection Argument--cluster.ctl"/>
+				<Item Name="Start Connection (Reply Payload)--cluster.ctl" Type="VI" URL="../Start Connection (Reply Payload)--cluster.ctl"/>
+				<Item Name="Close Connection Argument--cluster.ctl" Type="VI" URL="../Close Connection Argument--cluster.ctl"/>
+				<Item Name="Close Connection (Reply Payload)--cluster.ctl" Type="VI" URL="../Close Connection (Reply Payload)--cluster.ctl"/>
+				<Item Name="Write U16 Argument--cluster.ctl" Type="VI" URL="../Write U16 Argument--cluster.ctl"/>
+				<Item Name="Write U16 (Reply Payload)--cluster.ctl" Type="VI" URL="../Write U16 (Reply Payload)--cluster.ctl"/>
+				<Item Name="Write I16 Argument--cluster.ctl" Type="VI" URL="../Write I16 Argument--cluster.ctl"/>
+				<Item Name="Write I16 (Reply Payload)--cluster.ctl" Type="VI" URL="../Write I16 (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
+				<Item Name="Raw Data Updated Argument--cluster.ctl" Type="VI" URL="../Raw Data Updated Argument--cluster.ctl"/>
+				<Item Name="Date Updated Argument--cluster.ctl" Type="VI" URL="../Date Updated Argument--cluster.ctl"/>
+				<Item Name="EtherCAT Connection Updated Argument--cluster.ctl" Type="VI" URL="../EtherCAT Connection Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -32,6 +45,11 @@
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
+			<Item Name="Load Configuration.vi" Type="VI" URL="../Load Configuration.vi"/>
+			<Item Name="Start Connection.vi" Type="VI" URL="../Start Connection.vi"/>
+			<Item Name="Close Connection.vi" Type="VI" URL="../Close Connection.vi"/>
+			<Item Name="Write U16.vi" Type="VI" URL="../Write U16.vi"/>
+			<Item Name="Write I16.vi" Type="VI" URL="../Write I16.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -49,9 +67,22 @@
 		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
+		<Item Name="Raw Data Updated.vi" Type="VI" URL="../Raw Data Updated.vi"/>
+		<Item Name="Date Updated.vi" Type="VI" URL="../Date Updated.vi"/>
+		<Item Name="EtherCAT Connection Updated.vi" Type="VI" URL="../EtherCAT Connection Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Private Requests" Type="Folder">
+			<Item Name="Priv Req Arguments" Type="Folder">
+				<Item Name="Start Read Timer Loop Argument--cluster.ctl" Type="VI" URL="../Start Read Timer Loop Argument--cluster.ctl"/>
+				<Item Name="Stop Read Timer Loop Argument--cluster.ctl" Type="VI" URL="../Stop Read Timer Loop Argument--cluster.ctl"/>
+				<Item Name="Read Single Frame Argument--cluster.ctl" Type="VI" URL="../Read Single Frame Argument--cluster.ctl"/>
+			</Item>
+			<Item Name="Start Read Timer Loop.vi" Type="VI" URL="../Start Read Timer Loop.vi"/>
+			<Item Name="Stop Read Timer Loop.vi" Type="VI" URL="../Stop Read Timer Loop.vi"/>
+			<Item Name="Read Single Frame.vi" Type="VI" URL="../Read Single Frame.vi"/>
+		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
 		<Item Name="Destroy Request Events.vi" Type="VI" URL="../Destroy Request Events.vi"/>
@@ -94,6 +125,27 @@
 		<Item Name="Synchronize Caller Events.vi" Type="VI" URL="../Synchronize Caller Events.vi"/>
 		<Item Name="Wait on Event Sync.vi" Type="VI" URL="../Wait on Event Sync.vi"/>
 		<Item Name="Wait on Module Sync.vi" Type="VI" URL="../Wait on Module Sync.vi"/>
+	</Item>
+	<Item Name="Module Constants" Type="Folder">
+		<Item Name="Bus Cycle--constant.vi" Type="VI" URL="../Bus Cycle--constant.vi"/>
+		<Item Name="Number of Retry Connection--constant.vi" Type="VI" URL="../Number of Retry Connection--constant.vi"/>
+		<Item Name="Read Timer Loop Timeout Period--constant.vi" Type="VI" URL="../Read Timer Loop Timeout Period--constant.vi"/>
+	</Item>
+	<Item Name="Module Errors" Type="Folder">
+		<Item Name="EtherCAT Start Connection 6201--error.vi" Type="VI" URL="../EtherCAT Start Connection 6201--error.vi"/>
+		<Item Name="No EtherCAT Connection 6202--error.vi" Type="VI" URL="../No EtherCAT Connection 6202--error.vi"/>
+		<Item Name="Incorrect EtherCAT Variable 6203--error.vi" Type="VI" URL="../Incorrect EtherCAT Variable 6203--error.vi"/>
+		<Item Name="Incorrect EtherCAT Data type 6204--error.vi" Type="VI" URL="../Incorrect EtherCAT Data type 6204--error.vi"/>
+	</Item>
+	<Item Name="Module Specific" Type="Folder">
+		<Item Name="Get Write Map.vi" Type="VI" URL="../Get Write Map.vi"/>
+		<Item Name="Initialize EtherCAT Output Frame.vi" Type="VI" URL="../Initialize EtherCAT Output Frame.vi"/>
+		<Item Name="Read Output Conversion.vi" Type="VI" URL="../Read Output Conversion.vi"/>
+		<Item Name="Write Output Conversion.vi" Type="VI" URL="../Write Output Conversion.vi"/>
+	</Item>
+	<Item Name="Module Typedef" Type="Folder">
+		<Item Name="Write Context Typedef.ctl" Type="VI" URL="../Write Context Typedef.ctl"/>
+		<Item Name="EtherCAT Output Data Frame.ctl" Type="VI" URL="../EtherCAT Output Data Frame.ctl"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

@@ -19,12 +19,19 @@
 				<Item Name="Show Panel Argument--cluster.ctl" Type="VI" URL="../Show Panel Argument--cluster.ctl"/>
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
+				<Item Name="Launch all Hardware Argument--cluster.ctl" Type="VI" URL="../Launch all Hardware Argument--cluster.ctl"/>
+				<Item Name="Launch all Hardware (Reply Payload)--cluster.ctl" Type="VI" URL="../Launch all Hardware (Reply Payload)--cluster.ctl"/>
+				<Item Name="Write I16 Argument--cluster.ctl" Type="VI" URL="../Write I16 Argument--cluster.ctl"/>
+				<Item Name="Write I16 (Reply Payload)--cluster.ctl" Type="VI" URL="../Write I16 (Reply Payload)--cluster.ctl"/>
+				<Item Name="Write U16 Argument--cluster.ctl" Type="VI" URL="../Write U16 Argument--cluster.ctl"/>
+				<Item Name="Write U16 (Reply Payload)--cluster.ctl" Type="VI" URL="../Write U16 (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
 				<Item Name="System State Updated Argument--cluster.ctl" Type="VI" URL="../System State Updated Argument--cluster.ctl"/>
+				<Item Name="EtherCAT Data Updated Argument--cluster.ctl" Type="VI" URL="../EtherCAT Data Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -33,6 +40,9 @@
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
+			<Item Name="Launch all Hardware.vi" Type="VI" URL="../Launch all Hardware.vi"/>
+			<Item Name="Write I16.vi" Type="VI" URL="../Write I16.vi"/>
+			<Item Name="Write U16.vi" Type="VI" URL="../Write U16.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -51,14 +61,19 @@
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="System State Updated.vi" Type="VI" URL="../System State Updated.vi"/>
+		<Item Name="EtherCAT Data Updated.vi" Type="VI" URL="../EtherCAT Data Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Private Requests" Type="Folder">
 			<Item Name="Priv Req Arguments" Type="Folder">
 				<Item Name="Start System State Broadcast Helper Loop Argument--cluster.ctl" Type="VI" URL="../Start System State Broadcast Helper Loop Argument--cluster.ctl"/>
+				<Item Name="Launch EtherCat Argument--cluster.ctl" Type="VI" URL="../Launch EtherCat Argument--cluster.ctl"/>
+				<Item Name="Register for Broadcast EtherCAT system state Argument--cluster.ctl" Type="VI" URL="../Register for Broadcast EtherCAT system state Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Start System State Broadcast Helper Loop.vi" Type="VI" URL="../Start System State Broadcast Helper Loop.vi"/>
+			<Item Name="Launch EtherCat.vi" Type="VI" URL="../Launch EtherCat.vi"/>
+			<Item Name="Register for Broadcast EtherCAT system state.vi" Type="VI" URL="../Register for Broadcast EtherCAT system state.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
