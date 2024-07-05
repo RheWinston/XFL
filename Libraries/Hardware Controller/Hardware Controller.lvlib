@@ -131,6 +131,7 @@
 		<Item Name="EtherCAT Init" Type="Folder">
 			<Item Name="EtherCAT System State Init.vi" Type="VI" URL="../EtherCAT System State Init.vi"/>
 		</Item>
+		<Item Name="Cast EtherCAT Data.vi" Type="VI" URL="../Cast EtherCAT Data.vi"/>
 	</Item>
 	<Item Name="Constants" Type="Folder">
 		<Item Name="System State Broadcast Helper Loop Timeout.vi" Type="VI" URL="../System State Broadcast Helper Loop Timeout.vi"/>
