@@ -866,7 +866,6 @@
 					<Length>512</Length>
 					<StatusBitAddr>0</StatusBitAddr>
 				</Recv>
-				<Protocol>EoE</Protocol>
 				<Protocol>CoE</Protocol>
 				<CoE>
 					<InitCmds>
@@ -2107,7 +2106,6 @@
 					<Length>512</Length>
 					<StatusBitAddr>1</StatusBitAddr>
 				</Recv>
-				<Protocol>EoE</Protocol>
 				<Protocol>CoE</Protocol>
 				<CoE>
 					<InitCmds>

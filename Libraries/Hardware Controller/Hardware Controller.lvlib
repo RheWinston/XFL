@@ -69,9 +69,11 @@
 			<Item Name="Priv Req Arguments" Type="Folder">
 				<Item Name="Start System State Broadcast Helper Loop Argument--cluster.ctl" Type="VI" URL="../Start System State Broadcast Helper Loop Argument--cluster.ctl"/>
 				<Item Name="Launch EtherCat Argument--cluster.ctl" Type="VI" URL="../Launch EtherCat Argument--cluster.ctl"/>
+				<Item Name="Register for Broadcast EtherCAT system state Argument--cluster.ctl" Type="VI" URL="../Register for Broadcast EtherCAT system state Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Start System State Broadcast Helper Loop.vi" Type="VI" URL="../Start System State Broadcast Helper Loop.vi"/>
 			<Item Name="Launch EtherCat.vi" Type="VI" URL="../Launch EtherCat.vi"/>
+			<Item Name="Register for Broadcast EtherCAT system state.vi" Type="VI" URL="../Register for Broadcast EtherCAT system state.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
