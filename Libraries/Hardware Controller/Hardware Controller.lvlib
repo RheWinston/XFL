@@ -23,6 +23,8 @@
 				<Item Name="Launch all Hardware (Reply Payload)--cluster.ctl" Type="VI" URL="../Launch all Hardware (Reply Payload)--cluster.ctl"/>
 				<Item Name="Write I16 Argument--cluster.ctl" Type="VI" URL="../Write I16 Argument--cluster.ctl"/>
 				<Item Name="Write I16 (Reply Payload)--cluster.ctl" Type="VI" URL="../Write I16 (Reply Payload)--cluster.ctl"/>
+				<Item Name="Write U16 Argument--cluster.ctl" Type="VI" URL="../Write U16 Argument--cluster.ctl"/>
+				<Item Name="Write U16 (Reply Payload)--cluster.ctl" Type="VI" URL="../Write U16 (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -40,6 +42,7 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Launch all Hardware.vi" Type="VI" URL="../Launch all Hardware.vi"/>
 			<Item Name="Write I16.vi" Type="VI" URL="../Write I16.vi"/>
+			<Item Name="Write U16.vi" Type="VI" URL="../Write U16.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
