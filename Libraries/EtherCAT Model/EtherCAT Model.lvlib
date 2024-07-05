@@ -35,6 +35,7 @@
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
 				<Item Name="Raw Data Updated Argument--cluster.ctl" Type="VI" URL="../Raw Data Updated Argument--cluster.ctl"/>
+				<Item Name="Date Updated Argument--cluster.ctl" Type="VI" URL="../Date Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -66,6 +67,7 @@
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="Raw Data Updated.vi" Type="VI" URL="../Raw Data Updated.vi"/>
+		<Item Name="Date Updated.vi" Type="VI" URL="../Date Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -136,6 +138,7 @@
 	<Item Name="Module Specific" Type="Folder">
 		<Item Name="Get Write Map.vi" Type="VI" URL="../Get Write Map.vi"/>
 		<Item Name="Initialize EtherCAT Output Frame.vi" Type="VI" URL="../Initialize EtherCAT Output Frame.vi"/>
+		<Item Name="Read Output Conversion.vi" Type="VI" URL="../Read Output Conversion.vi"/>
 	</Item>
 	<Item Name="Module Typedef" Type="Folder">
 		<Item Name="Write Context Typedef.ctl" Type="VI" URL="../Write Context Typedef.ctl"/>
