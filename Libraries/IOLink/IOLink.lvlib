@@ -100,6 +100,7 @@
 	</Item>
 	<Item Name="Module Specific" Type="Folder">
 		<Item Name="Cast Sensor Data.vi" Type="VI" URL="../Cast Sensor Data.vi"/>
+		<Item Name="Cast Device Status.vi" Type="VI" URL="../Cast Device Status.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
