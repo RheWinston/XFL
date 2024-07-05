@@ -30,6 +30,7 @@
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
+				<Item Name="Raw Data Updated Argument--cluster.ctl" Type="VI" URL="../Raw Data Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -58,6 +59,7 @@
 		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
+		<Item Name="Raw Data Updated.vi" Type="VI" URL="../Raw Data Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -65,9 +67,11 @@
 			<Item Name="Priv Req Arguments" Type="Folder">
 				<Item Name="Start Read Timer Loop Argument--cluster.ctl" Type="VI" URL="../Start Read Timer Loop Argument--cluster.ctl"/>
 				<Item Name="Stop Read Timer Loop Argument--cluster.ctl" Type="VI" URL="../Stop Read Timer Loop Argument--cluster.ctl"/>
+				<Item Name="Read Single Frame Argument--cluster.ctl" Type="VI" URL="../Read Single Frame Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Start Read Timer Loop.vi" Type="VI" URL="../Start Read Timer Loop.vi"/>
 			<Item Name="Stop Read Timer Loop.vi" Type="VI" URL="../Stop Read Timer Loop.vi"/>
+			<Item Name="Read Single Frame.vi" Type="VI" URL="../Read Single Frame.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
@@ -122,6 +126,9 @@
 	</Item>
 	<Item Name="Module Specific" Type="Folder">
 		<Item Name="Get Write Map.vi" Type="VI" URL="../Get Write Map.vi"/>
+	</Item>
+	<Item Name="Module Typedef" Type="Folder">
+		<Item Name="Write Context Typedef.ctl" Type="VI" URL="../Write Context Typedef.ctl"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
