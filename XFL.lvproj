@@ -122,26 +122,18 @@
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Bus Cycle--constant.vi" Type="VI" URL="../Libraries/EtherCAT Model/Bus Cycle--constant.vi"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="EtherCAT System State Init.vi" Type="VI" URL="../Libraries/Hardware Controller/EtherCAT System State Init.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Number of Retry Connection--constant.vi" Type="VI" URL="../Libraries/EtherCAT Model/Number of Retry Connection--constant.vi"/>
 			<Item Name="QlmLicenseLib" Type="VI" URL="QlmLicenseLib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Start System State Broadcast Helper Loop Argument--cluster.ctl" Type="VI" URL="../Libraries/Hardware Controller/Start System State Broadcast Helper Loop Argument--cluster.ctl"/>
-			<Item Name="Start System State Broadcast Helper Loop.vi" Type="VI" URL="../Libraries/Hardware Controller/Start System State Broadcast Helper Loop.vi"/>
-			<Item Name="System State Broadcast Helper Loop Timeout.vi" Type="VI" URL="../Libraries/Hardware Controller/System State Broadcast Helper Loop Timeout.vi"/>
-			<Item Name="System State Updated Argument--cluster.ctl" Type="VI" URL="../Libraries/Hardware Controller/System State Updated Argument--cluster.ctl"/>
-			<Item Name="System State Updated.vi" Type="VI" URL="../Libraries/Hardware Controller/System State Updated.vi"/>
 			<Item Name="System.Xml" Type="Document" URL="System.Xml">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
