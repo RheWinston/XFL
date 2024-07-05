@@ -61,6 +61,14 @@
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Private Requests" Type="Folder">
+			<Item Name="Priv Req Arguments" Type="Folder">
+				<Item Name="Start Read Timer Loop Argument--cluster.ctl" Type="VI" URL="../Start Read Timer Loop Argument--cluster.ctl"/>
+				<Item Name="Stop Read Timer Loop Argument--cluster.ctl" Type="VI" URL="../Stop Read Timer Loop Argument--cluster.ctl"/>
+			</Item>
+			<Item Name="Start Read Timer Loop.vi" Type="VI" URL="../Start Read Timer Loop.vi"/>
+			<Item Name="Stop Read Timer Loop.vi" Type="VI" URL="../Stop Read Timer Loop.vi"/>
+		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
 		<Item Name="Destroy Request Events.vi" Type="VI" URL="../Destroy Request Events.vi"/>
@@ -107,9 +115,13 @@
 	<Item Name="Module Constants" Type="Folder">
 		<Item Name="Bus Cycle--constant.vi" Type="VI" URL="../Bus Cycle--constant.vi"/>
 		<Item Name="Number of Retry Connection--constant.vi" Type="VI" URL="../Number of Retry Connection--constant.vi"/>
+		<Item Name="Read Timer Loop Timeout Period--constant.vi" Type="VI" URL="../Read Timer Loop Timeout Period--constant.vi"/>
 	</Item>
 	<Item Name="Module Errors" Type="Folder">
 		<Item Name="EtherCAT Start Connection Error --6201.vi" Type="VI" URL="../EtherCAT Start Connection Error --6201.vi"/>
+	</Item>
+	<Item Name="Module Specific" Type="Folder">
+		<Item Name="Get Write Map.vi" Type="VI" URL="../Get Write Map.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

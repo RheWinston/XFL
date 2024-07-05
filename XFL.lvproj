@@ -125,6 +125,7 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="EtherCAT System State Init.vi" Type="VI" URL="../Libraries/Hardware Controller/EtherCAT System State Init.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -134,6 +135,11 @@
 			<Item Name="QlmLicenseLib" Type="VI" URL="QlmLicenseLib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Start System State Broadcast Helper Loop Argument--cluster.ctl" Type="VI" URL="../Libraries/Hardware Controller/Start System State Broadcast Helper Loop Argument--cluster.ctl"/>
+			<Item Name="Start System State Broadcast Helper Loop.vi" Type="VI" URL="../Libraries/Hardware Controller/Start System State Broadcast Helper Loop.vi"/>
+			<Item Name="System State Broadcast Helper Loop Timeout.vi" Type="VI" URL="../Libraries/Hardware Controller/System State Broadcast Helper Loop Timeout.vi"/>
+			<Item Name="System State Updated Argument--cluster.ctl" Type="VI" URL="../Libraries/Hardware Controller/System State Updated Argument--cluster.ctl"/>
+			<Item Name="System State Updated.vi" Type="VI" URL="../Libraries/Hardware Controller/System State Updated.vi"/>
 			<Item Name="System.Xml" Type="Document" URL="System.Xml">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
