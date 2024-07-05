@@ -27,6 +27,7 @@
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
 				<Item Name="System State Updated Argument--cluster.ctl" Type="VI" URL="../System State Updated Argument--cluster.ctl"/>
+				<Item Name="EtherCAT Data Updated Argument--cluster.ctl" Type="VI" URL="../EtherCAT Data Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -54,6 +55,7 @@
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="System State Updated.vi" Type="VI" URL="../System State Updated.vi"/>
+		<Item Name="EtherCAT Data Updated.vi" Type="VI" URL="../EtherCAT Data Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
