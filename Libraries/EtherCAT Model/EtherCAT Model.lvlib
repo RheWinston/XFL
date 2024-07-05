@@ -25,6 +25,10 @@
 				<Item Name="Start Connection (Reply Payload)--cluster.ctl" Type="VI" URL="../Start Connection (Reply Payload)--cluster.ctl"/>
 				<Item Name="Close Connection Argument--cluster.ctl" Type="VI" URL="../Close Connection Argument--cluster.ctl"/>
 				<Item Name="Close Connection (Reply Payload)--cluster.ctl" Type="VI" URL="../Close Connection (Reply Payload)--cluster.ctl"/>
+				<Item Name="Write U16 Argument--cluster.ctl" Type="VI" URL="../Write U16 Argument--cluster.ctl"/>
+				<Item Name="Write U16 (Reply Payload)--cluster.ctl" Type="VI" URL="../Write U16 (Reply Payload)--cluster.ctl"/>
+				<Item Name="Write I16 Argument--cluster.ctl" Type="VI" URL="../Write I16 Argument--cluster.ctl"/>
+				<Item Name="Write I16 (Reply Payload)--cluster.ctl" Type="VI" URL="../Write I16 (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -42,6 +46,8 @@
 			<Item Name="Load Configuration.vi" Type="VI" URL="../Load Configuration.vi"/>
 			<Item Name="Start Connection.vi" Type="VI" URL="../Start Connection.vi"/>
 			<Item Name="Close Connection.vi" Type="VI" URL="../Close Connection.vi"/>
+			<Item Name="Write U16.vi" Type="VI" URL="../Write U16.vi"/>
+			<Item Name="Write I16.vi" Type="VI" URL="../Write I16.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -122,13 +128,18 @@
 		<Item Name="Read Timer Loop Timeout Period--constant.vi" Type="VI" URL="../Read Timer Loop Timeout Period--constant.vi"/>
 	</Item>
 	<Item Name="Module Errors" Type="Folder">
-		<Item Name="EtherCAT Start Connection Error --6201.vi" Type="VI" URL="../EtherCAT Start Connection Error --6201.vi"/>
+		<Item Name="EtherCAT Start Connection 6201--error.vi" Type="VI" URL="../EtherCAT Start Connection 6201--error.vi"/>
+		<Item Name="No EtherCAT Connection 6202--error.vi" Type="VI" URL="../No EtherCAT Connection 6202--error.vi"/>
+		<Item Name="Incorrect EtherCAT Variable 6203--error.vi" Type="VI" URL="../Incorrect EtherCAT Variable 6203--error.vi"/>
+		<Item Name="Incorrect EtherCAT Data type 6204--error.vi" Type="VI" URL="../Incorrect EtherCAT Data type 6204--error.vi"/>
 	</Item>
 	<Item Name="Module Specific" Type="Folder">
 		<Item Name="Get Write Map.vi" Type="VI" URL="../Get Write Map.vi"/>
+		<Item Name="Initialize EtherCAT Output Frame.vi" Type="VI" URL="../Initialize EtherCAT Output Frame.vi"/>
 	</Item>
 	<Item Name="Module Typedef" Type="Folder">
 		<Item Name="Write Context Typedef.ctl" Type="VI" URL="../Write Context Typedef.ctl"/>
+		<Item Name="EtherCAT Output Data Frame.ctl" Type="VI" URL="../EtherCAT Output Data Frame.ctl"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
