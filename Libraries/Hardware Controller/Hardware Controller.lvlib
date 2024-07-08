@@ -40,6 +40,7 @@
 				<Item Name="EtherCAT Data Updated Argument--cluster.ctl" Type="VI" URL="../EtherCAT Data Updated Argument--cluster.ctl"/>
 				<Item Name="HardwareController Ethercat Data Updated Argument--cluster.ctl" Type="VI" URL="../HardwareController Ethercat Data Updated Argument--cluster.ctl"/>
 				<Item Name="System Fault Updated Argument--cluster.ctl" Type="VI" URL="../System Fault Updated Argument--cluster.ctl"/>
+				<Item Name="EtherCAT Connection Status Updated Argument--cluster.ctl" Type="VI" URL="../EtherCAT Connection Status Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -75,6 +76,7 @@
 		<Item Name="EtherCAT Data Updated.vi" Type="VI" URL="../EtherCAT Data Updated.vi"/>
 		<Item Name="HardwareController Ethercat Data Updated.vi" Type="VI" URL="../HardwareController Ethercat Data Updated.vi"/>
 		<Item Name="System Fault Updated.vi" Type="VI" URL="../System Fault Updated.vi"/>
+		<Item Name="EtherCAT Connection Status Updated.vi" Type="VI" URL="../EtherCAT Connection Status Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
