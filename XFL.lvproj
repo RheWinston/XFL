@@ -17,10 +17,12 @@
 		<Item Name="Modules" Type="Folder">
 			<Item Name="EtherCAT Model.lvlib" Type="Library" URL="../Libraries/EtherCAT Model/EtherCAT Model.lvlib"/>
 			<Item Name="Hardware Controller.lvlib" Type="Library" URL="../Libraries/Hardware Controller/Hardware Controller.lvlib"/>
+			<Item Name="UI.lvlib" Type="Library" URL="../Libraries/UI/UI.lvlib"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test EtherCAT Model API.vi" Type="VI" URL="../Libraries/EtherCAT Model/Test EtherCAT Model API.vi"/>
 			<Item Name="Test Hardware Controller API.vi" Type="VI" URL="../Libraries/Hardware Controller/Test Hardware Controller API.vi"/>
+			<Item Name="Test UI API.vi" Type="VI" URL="../Libraries/UI/Test UI API.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
