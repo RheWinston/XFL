@@ -37,6 +37,7 @@
 				<Item Name="Raw Data Updated Argument--cluster.ctl" Type="VI" URL="../Raw Data Updated Argument--cluster.ctl"/>
 				<Item Name="Date Updated Argument--cluster.ctl" Type="VI" URL="../Date Updated Argument--cluster.ctl"/>
 				<Item Name="EtherCAT Connection Updated Argument--cluster.ctl" Type="VI" URL="../EtherCAT Connection Updated Argument--cluster.ctl"/>
+				<Item Name="EtherCAT Fault Updated Argument--cluster.ctl" Type="VI" URL="../EtherCAT Fault Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -70,6 +71,7 @@
 		<Item Name="Raw Data Updated.vi" Type="VI" URL="../Raw Data Updated.vi"/>
 		<Item Name="Date Updated.vi" Type="VI" URL="../Date Updated.vi"/>
 		<Item Name="EtherCAT Connection Updated.vi" Type="VI" URL="../EtherCAT Connection Updated.vi"/>
+		<Item Name="EtherCAT Fault Updated.vi" Type="VI" URL="../EtherCAT Fault Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -136,6 +138,7 @@
 		<Item Name="No EtherCAT Connection 6202--error.vi" Type="VI" URL="../No EtherCAT Connection 6202--error.vi"/>
 		<Item Name="Incorrect EtherCAT Variable 6203--error.vi" Type="VI" URL="../Incorrect EtherCAT Variable 6203--error.vi"/>
 		<Item Name="Incorrect EtherCAT Data type 6204--error.vi" Type="VI" URL="../Incorrect EtherCAT Data type 6204--error.vi"/>
+		<Item Name="EtherCAT Drive Fault 6205--error.vi" Type="VI" URL="../EtherCAT Drive Fault 6205--error.vi"/>
 	</Item>
 	<Item Name="Module Specific" Type="Folder">
 		<Item Name="Get Write Map.vi" Type="VI" URL="../Get Write Map.vi"/>
