@@ -138,6 +138,7 @@
 		<Item Name="No EtherCAT Connection 6202--error.vi" Type="VI" URL="../No EtherCAT Connection 6202--error.vi"/>
 		<Item Name="Incorrect EtherCAT Variable 6203--error.vi" Type="VI" URL="../Incorrect EtherCAT Variable 6203--error.vi"/>
 		<Item Name="Incorrect EtherCAT Data type 6204--error.vi" Type="VI" URL="../Incorrect EtherCAT Data type 6204--error.vi"/>
+		<Item Name="EtherCAT Drive Fault 6205--error.vi" Type="VI" URL="../EtherCAT Drive Fault 6205--error.vi"/>
 	</Item>
 	<Item Name="Module Specific" Type="Folder">
 		<Item Name="Get Write Map.vi" Type="VI" URL="../Get Write Map.vi"/>
