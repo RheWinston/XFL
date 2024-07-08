@@ -25,6 +25,10 @@
 				<Item Name="Write I16 (Reply Payload)--cluster.ctl" Type="VI" URL="../Write I16 (Reply Payload)--cluster.ctl"/>
 				<Item Name="Write U16 Argument--cluster.ctl" Type="VI" URL="../Write U16 Argument--cluster.ctl"/>
 				<Item Name="Write U16 (Reply Payload)--cluster.ctl" Type="VI" URL="../Write U16 (Reply Payload)--cluster.ctl"/>
+				<Item Name="Start EtherCAT Conection Argument--cluster.ctl" Type="VI" URL="../Start EtherCAT Conection Argument--cluster.ctl"/>
+				<Item Name="Start EtherCAT Conection (Reply Payload)--cluster.ctl" Type="VI" URL="../Start EtherCAT Conection (Reply Payload)--cluster.ctl"/>
+				<Item Name="Ready Drive Argument--cluster.ctl" Type="VI" URL="../Ready Drive Argument--cluster.ctl"/>
+				<Item Name="Ready Drive (Reply Payload)--cluster.ctl" Type="VI" URL="../Ready Drive (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -32,6 +36,7 @@
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
 				<Item Name="System State Updated Argument--cluster.ctl" Type="VI" URL="../System State Updated Argument--cluster.ctl"/>
 				<Item Name="EtherCAT Data Updated Argument--cluster.ctl" Type="VI" URL="../EtherCAT Data Updated Argument--cluster.ctl"/>
+				<Item Name="HardwareController Ethercat Data Updated Argument--cluster.ctl" Type="VI" URL="../HardwareController Ethercat Data Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -43,6 +48,8 @@
 			<Item Name="Launch all Hardware.vi" Type="VI" URL="../Launch all Hardware.vi"/>
 			<Item Name="Write I16.vi" Type="VI" URL="../Write I16.vi"/>
 			<Item Name="Write U16.vi" Type="VI" URL="../Write U16.vi"/>
+			<Item Name="Start EtherCAT Conection.vi" Type="VI" URL="../Start EtherCAT Conection.vi"/>
+			<Item Name="Ready Drive.vi" Type="VI" URL="../Ready Drive.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -62,6 +69,7 @@
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="System State Updated.vi" Type="VI" URL="../System State Updated.vi"/>
 		<Item Name="EtherCAT Data Updated.vi" Type="VI" URL="../EtherCAT Data Updated.vi"/>
+		<Item Name="HardwareController Ethercat Data Updated.vi" Type="VI" URL="../HardwareController Ethercat Data Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -125,6 +133,7 @@
 		<Item Name="EtherCAT Init" Type="Folder">
 			<Item Name="EtherCAT System State Init.vi" Type="VI" URL="../EtherCAT System State Init.vi"/>
 		</Item>
+		<Item Name="Cast EtherCAT Data.vi" Type="VI" URL="../Cast EtherCAT Data.vi"/>
 	</Item>
 	<Item Name="Constants" Type="Folder">
 		<Item Name="System State Broadcast Helper Loop Timeout.vi" Type="VI" URL="../System State Broadcast Helper Loop Timeout.vi"/>
