@@ -18,11 +18,13 @@
 			<Item Name="EtherCAT Model.lvlib" Type="Library" URL="../Libraries/EtherCAT Model/EtherCAT Model.lvlib"/>
 			<Item Name="Hardware Controller.lvlib" Type="Library" URL="../Libraries/Hardware Controller/Hardware Controller.lvlib"/>
 			<Item Name="IOLink.lvlib" Type="Library" URL="../Libraries/IOLink/IOLink.lvlib"/>
+			<Item Name="UI.lvlib" Type="Library" URL="../Libraries/UI/UI.lvlib"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test EtherCAT Model API.vi" Type="VI" URL="../Libraries/EtherCAT Model/Test EtherCAT Model API.vi"/>
 			<Item Name="Test Hardware Controller API.vi" Type="VI" URL="../Libraries/Hardware Controller/Test Hardware Controller API.vi"/>
 			<Item Name="Test IOLink API.vi" Type="VI" URL="../Libraries/IOLink/Test IOLink API.vi"/>
+			<Item Name="Test UI API.vi" Type="VI" URL="../Libraries/UI/Test UI API.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -155,6 +157,7 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="EtherCAT Drive Fault 6205--error.vi" Type="VI" URL="../Libraries/EtherCAT Model/EtherCAT Drive Fault 6205--error.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
