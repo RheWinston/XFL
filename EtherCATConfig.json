@@ -25,7 +25,7 @@
             {"Name": "Motor Power", "Index": 51, "Bit": 0, "Type": "UINT16"},
             {"Name": "Motor Voltage", "Index": 53, "Bit": 0, "Type": "UINT16"},
             {"Name": "DC Link Voltage", "Index": 55, "Bit": 0, "Type": "UINT16"},
-            {"Name": "Process Data Out 8", "Index": 57, "Bit": 0, "Type": "UINT16"}
+            {"Name": "Last Active Fault Code", "Index": 57, "Bit": 0, "Type": "UINT16"}
         ],
         "Write Variables":[
             {"Name": "Control Word", "Index": 39, "Bit": 0, "Type": "UINT16"},
@@ -54,7 +54,7 @@
             {"Name": "Motor Power", "Index": 77, "Bit": 0, "Type": "UINT16"},
             {"Name": "Motor Voltage", "Index": 79, "Bit": 0, "Type": "UINT16"},
             {"Name": "DC Link Voltage", "Index": 81, "Bit": 0, "Type": "UINT16"},
-            {"Name": "Process Data Out 8", "Index": 83, "Bit": 0, "Type": "UINT16"}
+            {"Name": "Last Active Fault Code", "Index": 83, "Bit": 0, "Type": "UINT16"}
         ],
         "Write Variables":[
             {"Name": "Control Word", "Index": 65, "Bit": 0, "Type": "UINT16"},
