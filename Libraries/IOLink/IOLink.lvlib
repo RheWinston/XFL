@@ -26,6 +26,8 @@
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
+				<Item Name="Data Updated Argument--cluster.ctl" Type="VI" URL="../Data Updated Argument--cluster.ctl"/>
+				<Item Name="Connection Updated Argument--cluster.ctl" Type="VI" URL="../Connection Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -52,6 +54,8 @@
 		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
+		<Item Name="Data Updated.vi" Type="VI" URL="../Data Updated.vi"/>
+		<Item Name="Connection Updated.vi" Type="VI" URL="../Connection Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -101,6 +105,13 @@
 	<Item Name="Module Specific" Type="Folder">
 		<Item Name="Cast Sensor Data.vi" Type="VI" URL="../Cast Sensor Data.vi"/>
 		<Item Name="Cast Device Status.vi" Type="VI" URL="../Cast Device Status.vi"/>
+		<Item Name="Cast Sensor Data X5-8.vi" Type="VI" URL="../Cast Sensor Data X5-8.vi"/>
+		<Item Name="Update and Error.vi" Type="VI" URL="../Update and Error.vi"/>
+		<Item Name="replace in NaN.vi" Type="VI" URL="../replace in NaN.vi"/>
+	</Item>
+	<Item Name="Errors" Type="Folder">
+		<Item Name="IOL Sensor Value Invalid 6001--error.vi" Type="VI" URL="../IOL Sensor Value Invalid 6001--error.vi"/>
+		<Item Name="IOL Master Disconnected 6003--error.vi" Type="VI" URL="../IOL Master Disconnected 6003--error.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
