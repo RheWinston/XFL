@@ -21,6 +21,8 @@
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Start IOL Data Acquisition Argument--cluster.ctl" Type="VI" URL="../Start IOL Data Acquisition Argument--cluster.ctl"/>
 				<Item Name="Start IOL Data Acquisition (Reply Payload)--cluster.ctl" Type="VI" URL="../Start IOL Data Acquisition (Reply Payload)--cluster.ctl"/>
+				<Item Name="Stop Data Acquisition Argument--cluster.ctl" Type="VI" URL="../Stop Data Acquisition Argument--cluster.ctl"/>
+				<Item Name="Stop Data Acquisition (Reply Payload)--cluster.ctl" Type="VI" URL="../Stop Data Acquisition (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -37,6 +39,7 @@
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Start IOL Data Acquisition.vi" Type="VI" URL="../Start IOL Data Acquisition.vi"/>
+			<Item Name="Stop Data Acquisition.vi" Type="VI" URL="../Stop Data Acquisition.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
