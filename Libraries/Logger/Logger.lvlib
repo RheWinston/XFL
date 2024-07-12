@@ -18,6 +18,10 @@
 				<Item Name="Show Panel Argument--cluster.ctl" Type="VI" URL="../Show Panel Argument--cluster.ctl"/>
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
+				<Item Name="EtherCAT Start Logging Argument--cluster.ctl" Type="VI" URL="../EtherCAT Start Logging Argument--cluster.ctl"/>
+				<Item Name="EtherCAT Start Logging (Reply Payload)--cluster.ctl" Type="VI" URL="../EtherCAT Start Logging (Reply Payload)--cluster.ctl"/>
+				<Item Name="EtherCAT Stop Logging Argument--cluster.ctl" Type="VI" URL="../EtherCAT Stop Logging Argument--cluster.ctl"/>
+				<Item Name="EtherCAT Stop Logging (Reply Payload)--cluster.ctl" Type="VI" URL="../EtherCAT Stop Logging (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -31,6 +35,8 @@
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
+			<Item Name="EtherCAT Start Logging.vi" Type="VI" URL="../EtherCAT Start Logging.vi"/>
+			<Item Name="EtherCAT Stop Logging.vi" Type="VI" URL="../EtherCAT Stop Logging.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -93,6 +99,9 @@
 		<Item Name="Synchronize Caller Events.vi" Type="VI" URL="../Synchronize Caller Events.vi"/>
 		<Item Name="Wait on Event Sync.vi" Type="VI" URL="../Wait on Event Sync.vi"/>
 		<Item Name="Wait on Module Sync.vi" Type="VI" URL="../Wait on Module Sync.vi"/>
+	</Item>
+	<Item Name="Module Specific" Type="Folder">
+		<Item Name="Map to Array.vi" Type="VI" URL="../Map to Array.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
