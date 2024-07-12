@@ -19,6 +19,8 @@
 				<Item Name="Show Panel Argument--cluster.ctl" Type="VI" URL="../Show Panel Argument--cluster.ctl"/>
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
+				<Item Name="Start Ready Drive State Machine Argument--cluster.ctl" Type="VI" URL="../Start Ready Drive State Machine Argument--cluster.ctl"/>
+				<Item Name="Start Ready Drive State Machine (Reply Payload)--cluster.ctl" Type="VI" URL="../Start Ready Drive State Machine (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -32,6 +34,7 @@
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
+			<Item Name="Start Ready Drive State Machine.vi" Type="VI" URL="../Start Ready Drive State Machine.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -55,8 +58,10 @@
 		<Item Name="Private Requests" Type="Folder">
 			<Item Name="Priv Req Arguments" Type="Folder">
 				<Item Name="Launch Hardware Controller Argument--cluster.ctl" Type="VI" URL="../Launch Hardware Controller Argument--cluster.ctl"/>
+				<Item Name="Register Helper Loop for Hardware Contrller Broadcast Argument--cluster.ctl" Type="VI" URL="../Register Helper Loop for Hardware Contrller Broadcast Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Launch Hardware Controller.vi" Type="VI" URL="../Launch Hardware Controller.vi"/>
+			<Item Name="Register Helper Loop for Hardware Contrller Broadcast.vi" Type="VI" URL="../Register Helper Loop for Hardware Contrller Broadcast.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
@@ -100,6 +105,12 @@
 		<Item Name="Synchronize Caller Events.vi" Type="VI" URL="../Synchronize Caller Events.vi"/>
 		<Item Name="Wait on Event Sync.vi" Type="VI" URL="../Wait on Event Sync.vi"/>
 		<Item Name="Wait on Module Sync.vi" Type="VI" URL="../Wait on Module Sync.vi"/>
+	</Item>
+	<Item Name="Module TypeDef" Type="Folder">
+		<Item Name="Ready Drive State Machine.ctl" Type="VI" URL="../Ready Drive State Machine.ctl"/>
+	</Item>
+	<Item Name="Module Specific" Type="Folder">
+		<Item Name="Check Drive Fault Error.vi" Type="VI" URL="../Check Drive Fault Error.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

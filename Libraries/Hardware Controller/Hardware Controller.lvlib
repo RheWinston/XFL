@@ -31,6 +31,8 @@
 				<Item Name="Ready Drive (Reply Payload)--cluster.ctl" Type="VI" URL="../Ready Drive (Reply Payload)--cluster.ctl"/>
 				<Item Name="Clear System Fault Argument--cluster.ctl" Type="VI" URL="../Clear System Fault Argument--cluster.ctl"/>
 				<Item Name="Clear System Fault (Reply Payload)--cluster.ctl" Type="VI" URL="../Clear System Fault (Reply Payload)--cluster.ctl"/>
+				<Item Name="Close EtherCAT Connection Argument--cluster.ctl" Type="VI" URL="../Close EtherCAT Connection Argument--cluster.ctl"/>
+				<Item Name="Close EtherCAT Connection (Reply Payload)--cluster.ctl" Type="VI" URL="../Close EtherCAT Connection (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -55,6 +57,7 @@
 			<Item Name="Start EtherCAT Conection.vi" Type="VI" URL="../Start EtherCAT Conection.vi"/>
 			<Item Name="Ready Drive.vi" Type="VI" URL="../Ready Drive.vi"/>
 			<Item Name="Clear System Fault.vi" Type="VI" URL="../Clear System Fault.vi"/>
+			<Item Name="Close EtherCAT Connection.vi" Type="VI" URL="../Close EtherCAT Connection.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
