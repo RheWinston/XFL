@@ -18,12 +18,14 @@
 			<Item Name="EtherCAT Model.lvlib" Type="Library" URL="../Libraries/EtherCAT Model/EtherCAT Model.lvlib"/>
 			<Item Name="Hardware Controller.lvlib" Type="Library" URL="../Libraries/Hardware Controller/Hardware Controller.lvlib"/>
 			<Item Name="IOLink.lvlib" Type="Library" URL="../Libraries/IOLink/IOLink.lvlib"/>
+			<Item Name="Logger.lvlib" Type="Library" URL="../Libraries/Logger/Logger.lvlib"/>
 			<Item Name="UI.lvlib" Type="Library" URL="../Libraries/UI/UI.lvlib"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test EtherCAT Model API.vi" Type="VI" URL="../Libraries/EtherCAT Model/Test EtherCAT Model API.vi"/>
 			<Item Name="Test Hardware Controller API.vi" Type="VI" URL="../Libraries/Hardware Controller/Test Hardware Controller API.vi"/>
 			<Item Name="Test IOLink API.vi" Type="VI" URL="../Libraries/IOLink/Test IOLink API.vi"/>
+			<Item Name="Test Logger API.vi" Type="VI" URL="../Libraries/Logger/Test Logger API.vi"/>
 			<Item Name="Test UI API.vi" Type="VI" URL="../Libraries/UI/Test UI API.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
