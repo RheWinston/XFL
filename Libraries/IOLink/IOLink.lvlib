@@ -66,9 +66,11 @@
 			<Item Name="Priv Req Arguments" Type="Folder">
 				<Item Name="start read Argument--cluster.ctl" Type="VI" URL="../start read Argument--cluster.ctl"/>
 				<Item Name="read Argument--cluster.ctl" Type="VI" URL="../read Argument--cluster.ctl"/>
+				<Item Name="Stop Acquisition Argument--cluster.ctl" Type="VI" URL="../Stop Acquisition Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="start read.vi" Type="VI" URL="../start read.vi"/>
 			<Item Name="read.vi" Type="VI" URL="../read.vi"/>
+			<Item Name="Stop Acquisition.vi" Type="VI" URL="../Stop Acquisition.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
