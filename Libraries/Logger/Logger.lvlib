@@ -22,6 +22,14 @@
 				<Item Name="EtherCAT Start Logging (Reply Payload)--cluster.ctl" Type="VI" URL="../EtherCAT Start Logging (Reply Payload)--cluster.ctl"/>
 				<Item Name="EtherCAT Stop Logging Argument--cluster.ctl" Type="VI" URL="../EtherCAT Stop Logging Argument--cluster.ctl"/>
 				<Item Name="EtherCAT Stop Logging (Reply Payload)--cluster.ctl" Type="VI" URL="../EtherCAT Stop Logging (Reply Payload)--cluster.ctl"/>
+				<Item Name="IOLink Start Logging Argument--cluster.ctl" Type="VI" URL="../IOLink Start Logging Argument--cluster.ctl"/>
+				<Item Name="IOLink Start Logging (Reply Payload)--cluster.ctl" Type="VI" URL="../IOLink Start Logging (Reply Payload)--cluster.ctl"/>
+				<Item Name="IOLink Stop Logging Argument--cluster.ctl" Type="VI" URL="../IOLink Stop Logging Argument--cluster.ctl"/>
+				<Item Name="IOLink Stop Logging (Reply Payload)--cluster.ctl" Type="VI" URL="../IOLink Stop Logging (Reply Payload)--cluster.ctl"/>
+				<Item Name="IV Stand Start Logging Argument--cluster.ctl" Type="VI" URL="../IV Stand Start Logging Argument--cluster.ctl"/>
+				<Item Name="IV Stand Start Logging (Reply Payload)--cluster.ctl" Type="VI" URL="../IV Stand Start Logging (Reply Payload)--cluster.ctl"/>
+				<Item Name="IV Stand Stop Logging Argument--cluster.ctl" Type="VI" URL="../IV Stand Stop Logging Argument--cluster.ctl"/>
+				<Item Name="IV Stand Stop Logging (Reply Payload)--cluster.ctl" Type="VI" URL="../IV Stand Stop Logging (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -37,6 +45,10 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="EtherCAT Start Logging.vi" Type="VI" URL="../EtherCAT Start Logging.vi"/>
 			<Item Name="EtherCAT Stop Logging.vi" Type="VI" URL="../EtherCAT Stop Logging.vi"/>
+			<Item Name="IOLink Start Logging.vi" Type="VI" URL="../IOLink Start Logging.vi"/>
+			<Item Name="IOLink Stop Logging.vi" Type="VI" URL="../IOLink Stop Logging.vi"/>
+			<Item Name="IV Stand Start Logging.vi" Type="VI" URL="../IV Stand Start Logging.vi"/>
+			<Item Name="IV Stand Stop Logging.vi" Type="VI" URL="../IV Stand Stop Logging.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
