@@ -149,6 +149,7 @@
 	<Item Name="Module Typedef" Type="Folder">
 		<Item Name="Write Context Typedef.ctl" Type="VI" URL="../Write Context Typedef.ctl"/>
 		<Item Name="EtherCAT Output Data Frame.ctl" Type="VI" URL="../EtherCAT Output Data Frame.ctl"/>
+		<Item Name="Replace with Nan.vi" Type="VI" URL="../Replace with Nan.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
