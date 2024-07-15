@@ -40,11 +40,11 @@
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
 				<Item Name="System State Updated Argument--cluster.ctl" Type="VI" URL="../System State Updated Argument--cluster.ctl"/>
 				<Item Name="EtherCAT Data Updated Argument--cluster.ctl" Type="VI" URL="../EtherCAT Data Updated Argument--cluster.ctl"/>
-				<Item Name="HardwareController Ethercat Data Updated Argument--cluster.ctl" Type="VI" URL="../HardwareController Ethercat Data Updated Argument--cluster.ctl"/>
 				<Item Name="System Fault Updated Argument--cluster.ctl" Type="VI" URL="../System Fault Updated Argument--cluster.ctl"/>
 				<Item Name="EtherCAT Connection Status Updated Argument--cluster.ctl" Type="VI" URL="../EtherCAT Connection Status Updated Argument--cluster.ctl"/>
 				<Item Name="HardwareController IOLink Data Updated Argument--cluster.ctl" Type="VI" URL="../HardwareController IOLink Data Updated Argument--cluster.ctl"/>
 				<Item Name="IOLink Connection Updated Argument--cluster.ctl" Type="VI" URL="../IOLink Connection Updated Argument--cluster.ctl"/>
+				<Item Name="HardwareController EtherCAT Data Updated Argument--cluster.ctl" Type="VI" URL="../HardwareController EtherCAT Data Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -79,11 +79,11 @@
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="System State Updated.vi" Type="VI" URL="../System State Updated.vi"/>
 		<Item Name="EtherCAT Data Updated.vi" Type="VI" URL="../EtherCAT Data Updated.vi"/>
-		<Item Name="HardwareController Ethercat Data Updated.vi" Type="VI" URL="../HardwareController Ethercat Data Updated.vi"/>
 		<Item Name="System Fault Updated.vi" Type="VI" URL="../System Fault Updated.vi"/>
 		<Item Name="EtherCAT Connection Status Updated.vi" Type="VI" URL="../EtherCAT Connection Status Updated.vi"/>
 		<Item Name="HardwareController IOLink Data Updated.vi" Type="VI" URL="../HardwareController IOLink Data Updated.vi"/>
 		<Item Name="IOLink Connection Updated.vi" Type="VI" URL="../IOLink Connection Updated.vi"/>
+		<Item Name="HardwareController EtherCAT Data Updated.vi" Type="VI" URL="../HardwareController EtherCAT Data Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
