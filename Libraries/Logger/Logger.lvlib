@@ -30,6 +30,10 @@
 				<Item Name="IV Stand Start Logging (Reply Payload)--cluster.ctl" Type="VI" URL="../IV Stand Start Logging (Reply Payload)--cluster.ctl"/>
 				<Item Name="IV Stand Stop Logging Argument--cluster.ctl" Type="VI" URL="../IV Stand Stop Logging Argument--cluster.ctl"/>
 				<Item Name="IV Stand Stop Logging (Reply Payload)--cluster.ctl" Type="VI" URL="../IV Stand Stop Logging (Reply Payload)--cluster.ctl"/>
+				<Item Name="Create File Argument--cluster.ctl" Type="VI" URL="../Create File Argument--cluster.ctl"/>
+				<Item Name="Create File (Reply Payload)--cluster.ctl" Type="VI" URL="../Create File (Reply Payload)--cluster.ctl"/>
+				<Item Name="Close File Argument--cluster.ctl" Type="VI" URL="../Close File Argument--cluster.ctl"/>
+				<Item Name="Close File (Reply Payload)--cluster.ctl" Type="VI" URL="../Close File (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -49,6 +53,8 @@
 			<Item Name="IOLink Stop Logging.vi" Type="VI" URL="../IOLink Stop Logging.vi"/>
 			<Item Name="IV Stand Start Logging.vi" Type="VI" URL="../IV Stand Start Logging.vi"/>
 			<Item Name="IV Stand Stop Logging.vi" Type="VI" URL="../IV Stand Stop Logging.vi"/>
+			<Item Name="Create File.vi" Type="VI" URL="../Create File.vi"/>
+			<Item Name="Close File.vi" Type="VI" URL="../Close File.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
