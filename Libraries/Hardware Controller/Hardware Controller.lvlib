@@ -33,6 +33,8 @@
 				<Item Name="Clear System Fault (Reply Payload)--cluster.ctl" Type="VI" URL="../Clear System Fault (Reply Payload)--cluster.ctl"/>
 				<Item Name="Close EtherCAT Connection Argument--cluster.ctl" Type="VI" URL="../Close EtherCAT Connection Argument--cluster.ctl"/>
 				<Item Name="Close EtherCAT Connection (Reply Payload)--cluster.ctl" Type="VI" URL="../Close EtherCAT Connection (Reply Payload)--cluster.ctl"/>
+				<Item Name="Set Error Hardware Controller Argument--cluster.ctl" Type="VI" URL="../Set Error Hardware Controller Argument--cluster.ctl"/>
+				<Item Name="Set Error Hardware Controller (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Error Hardware Controller (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -44,7 +46,7 @@
 				<Item Name="EtherCAT Connection Status Updated Argument--cluster.ctl" Type="VI" URL="../EtherCAT Connection Status Updated Argument--cluster.ctl"/>
 				<Item Name="HardwareController IOLink Data Updated Argument--cluster.ctl" Type="VI" URL="../HardwareController IOLink Data Updated Argument--cluster.ctl"/>
 				<Item Name="IOLink Connection Updated Argument--cluster.ctl" Type="VI" URL="../IOLink Connection Updated Argument--cluster.ctl"/>
-				<Item Name="HardwareController EtherCAT Data Updated Argument--cluster.ctl" Type="VI" URL="../HardwareController EtherCAT Data Updated Argument--cluster.ctl"/>
+				<Item Name="HardwareController Ethercat Data Updated Argument--cluster.ctl" Type="VI" URL="../HardwareController Ethercat Data Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -60,6 +62,7 @@
 			<Item Name="Ready Drive.vi" Type="VI" URL="../Ready Drive.vi"/>
 			<Item Name="Clear System Fault.vi" Type="VI" URL="../Clear System Fault.vi"/>
 			<Item Name="Close EtherCAT Connection.vi" Type="VI" URL="../Close EtherCAT Connection.vi"/>
+			<Item Name="Set Error Hardware Controller.vi" Type="VI" URL="../Set Error Hardware Controller.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -83,7 +86,7 @@
 		<Item Name="EtherCAT Connection Status Updated.vi" Type="VI" URL="../EtherCAT Connection Status Updated.vi"/>
 		<Item Name="HardwareController IOLink Data Updated.vi" Type="VI" URL="../HardwareController IOLink Data Updated.vi"/>
 		<Item Name="IOLink Connection Updated.vi" Type="VI" URL="../IOLink Connection Updated.vi"/>
-		<Item Name="HardwareController EtherCAT Data Updated.vi" Type="VI" URL="../HardwareController EtherCAT Data Updated.vi"/>
+		<Item Name="HardwareController Ethercat Data Updated.vi" Type="VI" URL="../HardwareController Ethercat Data Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
