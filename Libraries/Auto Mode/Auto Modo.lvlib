@@ -107,11 +107,18 @@
 	</Item>
 	<Item Name="Module Constant" Type="Folder">
 		<Item Name="Sequencer Event Timeout--constant.vi" Type="VI" URL="../Sequencer Event Timeout--constant.vi"/>
-		<Item Name="Sequence Timout--constant.vi" Type="VI" URL="../Sequence Timout--constant.vi"/>
+		<Item Name="Sequence Check Timout--constant.vi" Type="VI" URL="../Sequence Check Timout--constant.vi"/>
+		<Item Name="RPM Band--constant.vi" Type="VI" URL="../RPM Band--constant.vi"/>
 	</Item>
 	<Item Name="Module Specific" Type="Folder">
 		<Item Name="Sequence Check Drive Fault.vi" Type="VI" URL="../Sequence Check Drive Fault.vi"/>
 		<Item Name="Sequence Check Timeout.vi" Type="VI" URL="../Sequence Check Timeout.vi"/>
+		<Item Name="Sequence Check Ready to Switch ON.vi" Type="VI" URL="../Sequence Check Ready to Switch ON.vi"/>
+		<Item Name="Sequence Check Operation Enable.vi" Type="VI" URL="../Sequence Check Operation Enable.vi"/>
+		<Item Name="Sequence Get RPM.vi" Type="VI" URL="../Sequence Get RPM.vi"/>
+		<Item Name="Sequence Check Drive RPM.vi" Type="VI" URL="../Sequence Check Drive RPM.vi"/>
+		<Item Name="Sequence RPM in Range.vi" Type="VI" URL="../Sequence RPM in Range.vi"/>
+		<Item Name="Sequence Check Next RPM.vi" Type="VI" URL="../Sequence Check Next RPM.vi"/>
 	</Item>
 	<Item Name="Module Error" Type="Folder">
 		<Item Name="Sequence Timeout 6301--error.vi" Type="VI" URL="../Sequence Timeout 6301--error.vi"/>
