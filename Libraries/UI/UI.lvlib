@@ -113,6 +113,7 @@
 		<Item Name="Check Drive Fault Error.vi" Type="VI" URL="../Check Drive Fault Error.vi"/>
 		<Item Name="LoadAutoConfig.vi" Type="VI" URL="../LoadAutoConfig.vi"/>
 		<Item Name="Convert Pump RPMs.vi" Type="VI" URL="../Convert Pump RPMs.vi"/>
+		<Item Name="Convert Turbine RPMs.vi" Type="VI" URL="../Convert Turbine RPMs.vi"/>
 	</Item>
 	<Item Name="Module Errors" Type="Folder">
 		<Item Name="Configuration File mismatch 6301--error.vi" Type="VI" URL="../Configuration File mismatch 6301--error.vi"/>
