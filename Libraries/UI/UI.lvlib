@@ -59,9 +59,11 @@
 			<Item Name="Priv Req Arguments" Type="Folder">
 				<Item Name="Launch Hardware Controller Argument--cluster.ctl" Type="VI" URL="../Launch Hardware Controller Argument--cluster.ctl"/>
 				<Item Name="Register Helper Loop for Hardware Contrller Broadcast Argument--cluster.ctl" Type="VI" URL="../Register Helper Loop for Hardware Contrller Broadcast Argument--cluster.ctl"/>
+				<Item Name="Start Logger Module Argument--cluster.ctl" Type="VI" URL="../Start Logger Module Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Launch Hardware Controller.vi" Type="VI" URL="../Launch Hardware Controller.vi"/>
 			<Item Name="Register Helper Loop for Hardware Contrller Broadcast.vi" Type="VI" URL="../Register Helper Loop for Hardware Contrller Broadcast.vi"/>
+			<Item Name="Start Logger Module.vi" Type="VI" URL="../Start Logger Module.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
@@ -111,6 +113,12 @@
 	</Item>
 	<Item Name="Module Specific" Type="Folder">
 		<Item Name="Check Drive Fault Error.vi" Type="VI" URL="../Check Drive Fault Error.vi"/>
+		<Item Name="LoadAutoConfig.vi" Type="VI" URL="../LoadAutoConfig.vi"/>
+		<Item Name="Convert Pump RPMs.vi" Type="VI" URL="../Convert Pump RPMs.vi"/>
+		<Item Name="Convert Turbine RPMs.vi" Type="VI" URL="../Convert Turbine RPMs.vi"/>
+	</Item>
+	<Item Name="Module Errors" Type="Folder">
+		<Item Name="Configuration File mismatch 6301--error.vi" Type="VI" URL="../Configuration File mismatch 6301--error.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
