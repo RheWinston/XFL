@@ -33,6 +33,8 @@
 				<Item Name="Clear System Fault (Reply Payload)--cluster.ctl" Type="VI" URL="../Clear System Fault (Reply Payload)--cluster.ctl"/>
 				<Item Name="Close EtherCAT Connection Argument--cluster.ctl" Type="VI" URL="../Close EtherCAT Connection Argument--cluster.ctl"/>
 				<Item Name="Close EtherCAT Connection (Reply Payload)--cluster.ctl" Type="VI" URL="../Close EtherCAT Connection (Reply Payload)--cluster.ctl"/>
+				<Item Name="Set Error Hardware Controller Argument--cluster.ctl" Type="VI" URL="../Set Error Hardware Controller Argument--cluster.ctl"/>
+				<Item Name="Set Error Hardware Controller (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Error Hardware Controller (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -40,9 +42,11 @@
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
 				<Item Name="System State Updated Argument--cluster.ctl" Type="VI" URL="../System State Updated Argument--cluster.ctl"/>
 				<Item Name="EtherCAT Data Updated Argument--cluster.ctl" Type="VI" URL="../EtherCAT Data Updated Argument--cluster.ctl"/>
-				<Item Name="HardwareController Ethercat Data Updated Argument--cluster.ctl" Type="VI" URL="../HardwareController Ethercat Data Updated Argument--cluster.ctl"/>
 				<Item Name="System Fault Updated Argument--cluster.ctl" Type="VI" URL="../System Fault Updated Argument--cluster.ctl"/>
 				<Item Name="EtherCAT Connection Status Updated Argument--cluster.ctl" Type="VI" URL="../EtherCAT Connection Status Updated Argument--cluster.ctl"/>
+				<Item Name="HardwareController IOLink Data Updated Argument--cluster.ctl" Type="VI" URL="../HardwareController IOLink Data Updated Argument--cluster.ctl"/>
+				<Item Name="IOLink Connection Updated Argument--cluster.ctl" Type="VI" URL="../IOLink Connection Updated Argument--cluster.ctl"/>
+				<Item Name="HardwareController Ethercat Data Updated Argument--cluster.ctl" Type="VI" URL="../HardwareController Ethercat Data Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -58,6 +62,7 @@
 			<Item Name="Ready Drive.vi" Type="VI" URL="../Ready Drive.vi"/>
 			<Item Name="Clear System Fault.vi" Type="VI" URL="../Clear System Fault.vi"/>
 			<Item Name="Close EtherCAT Connection.vi" Type="VI" URL="../Close EtherCAT Connection.vi"/>
+			<Item Name="Set Error Hardware Controller.vi" Type="VI" URL="../Set Error Hardware Controller.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -77,9 +82,11 @@
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="System State Updated.vi" Type="VI" URL="../System State Updated.vi"/>
 		<Item Name="EtherCAT Data Updated.vi" Type="VI" URL="../EtherCAT Data Updated.vi"/>
-		<Item Name="HardwareController Ethercat Data Updated.vi" Type="VI" URL="../HardwareController Ethercat Data Updated.vi"/>
 		<Item Name="System Fault Updated.vi" Type="VI" URL="../System Fault Updated.vi"/>
 		<Item Name="EtherCAT Connection Status Updated.vi" Type="VI" URL="../EtherCAT Connection Status Updated.vi"/>
+		<Item Name="HardwareController IOLink Data Updated.vi" Type="VI" URL="../HardwareController IOLink Data Updated.vi"/>
+		<Item Name="IOLink Connection Updated.vi" Type="VI" URL="../IOLink Connection Updated.vi"/>
+		<Item Name="HardwareController Ethercat Data Updated.vi" Type="VI" URL="../HardwareController Ethercat Data Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -88,10 +95,16 @@
 				<Item Name="Start System State Broadcast Helper Loop Argument--cluster.ctl" Type="VI" URL="../Start System State Broadcast Helper Loop Argument--cluster.ctl"/>
 				<Item Name="Launch EtherCat Argument--cluster.ctl" Type="VI" URL="../Launch EtherCat Argument--cluster.ctl"/>
 				<Item Name="Register for Broadcast EtherCAT system state Argument--cluster.ctl" Type="VI" URL="../Register for Broadcast EtherCAT system state Argument--cluster.ctl"/>
+				<Item Name="Launch IOLink Argument--cluster.ctl" Type="VI" URL="../Launch IOLink Argument--cluster.ctl"/>
+				<Item Name="Register for IOLink broadcast Argument--cluster.ctl" Type="VI" URL="../Register for IOLink broadcast Argument--cluster.ctl"/>
+				<Item Name="Start IOLink Connection Argument--cluster.ctl" Type="VI" URL="../Start IOLink Connection Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Start System State Broadcast Helper Loop.vi" Type="VI" URL="../Start System State Broadcast Helper Loop.vi"/>
 			<Item Name="Launch EtherCat.vi" Type="VI" URL="../Launch EtherCat.vi"/>
 			<Item Name="Register for Broadcast EtherCAT system state.vi" Type="VI" URL="../Register for Broadcast EtherCAT system state.vi"/>
+			<Item Name="Launch IOLink.vi" Type="VI" URL="../Launch IOLink.vi"/>
+			<Item Name="Register for IOLink broadcast.vi" Type="VI" URL="../Register for IOLink broadcast.vi"/>
+			<Item Name="Start IOLink Connection.vi" Type="VI" URL="../Start IOLink Connection.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
@@ -144,9 +157,13 @@
 			<Item Name="EtherCAT System State Init.vi" Type="VI" URL="../EtherCAT System State Init.vi"/>
 		</Item>
 		<Item Name="Cast EtherCAT Data.vi" Type="VI" URL="../Cast EtherCAT Data.vi"/>
+		<Item Name="Cast IOLink Data.vi" Type="VI" URL="../Cast IOLink Data.vi"/>
+		<Item Name="Convert Analog.vi" Type="VI" URL="../Convert Analog.vi"/>
 	</Item>
 	<Item Name="Constants" Type="Folder">
 		<Item Name="System State Broadcast Helper Loop Timeout.vi" Type="VI" URL="../System State Broadcast Helper Loop Timeout.vi"/>
+		<Item Name="Torque Sensor Range--constant.vi" Type="VI" URL="../Torque Sensor Range--constant.vi"/>
+		<Item Name="Flow Rate Sensor Range--constant.vi" Type="VI" URL="../Flow Rate Sensor Range--constant.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
