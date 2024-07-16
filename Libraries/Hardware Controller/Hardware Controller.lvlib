@@ -37,6 +37,8 @@
 				<Item Name="Set Error Hardware Controller (Reply Payload)--cluster.ctl" Type="VI" URL="../Set Error Hardware Controller (Reply Payload)--cluster.ctl"/>
 				<Item Name="Start IOLink Connection Argument--cluster.ctl" Type="VI" URL="../Start IOLink Connection Argument--cluster.ctl"/>
 				<Item Name="Start IOLink Connection (Reply Payload)--cluster.ctl" Type="VI" URL="../Start IOLink Connection (Reply Payload)--cluster.ctl"/>
+				<Item Name="Close IOLink Connection Argument--cluster.ctl" Type="VI" URL="../Close IOLink Connection Argument--cluster.ctl"/>
+				<Item Name="Close IOLink Connection (Reply Payload)--cluster.ctl" Type="VI" URL="../Close IOLink Connection (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -66,6 +68,7 @@
 			<Item Name="Close EtherCAT Connection.vi" Type="VI" URL="../Close EtherCAT Connection.vi"/>
 			<Item Name="Set Error Hardware Controller.vi" Type="VI" URL="../Set Error Hardware Controller.vi"/>
 			<Item Name="Start IOLink Connection.vi" Type="VI" URL="../Start IOLink Connection.vi"/>
+			<Item Name="Close IOLink Connection.vi" Type="VI" URL="../Close IOLink Connection.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
