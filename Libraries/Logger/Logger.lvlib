@@ -39,6 +39,7 @@
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
+				<Item Name="Logger Status Updated Argument--cluster.ctl" Type="VI" URL="../Logger Status Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -53,8 +54,8 @@
 			<Item Name="IOLink Stop Logging.vi" Type="VI" URL="../IOLink Stop Logging.vi"/>
 			<Item Name="IV Stand Start Logging.vi" Type="VI" URL="../IV Stand Start Logging.vi"/>
 			<Item Name="IV Stand Stop Logging.vi" Type="VI" URL="../IV Stand Stop Logging.vi"/>
-			<Item Name="Create File.vi" Type="VI" URL="../Create File.vi"/>
 			<Item Name="Close File.vi" Type="VI" URL="../Close File.vi"/>
+			<Item Name="Create File.vi" Type="VI" URL="../Create File.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -72,6 +73,7 @@
 		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
+		<Item Name="Logger Status Updated.vi" Type="VI" URL="../Logger Status Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
