@@ -122,6 +122,7 @@
 	<Item Name="Module Errors" Type="Folder">
 		<Item Name="Configuration File mismatch 7101--error.vi" Type="VI" URL="../Configuration File mismatch 7101--error.vi"/>
 		<Item Name="Fault Exists Cannot start Auto 7102--error.vi" Type="VI" URL="../Fault Exists Cannot start Auto 7102--error.vi"/>
+		<Item Name="Necessary Files Not Given 7103--error.vi" Type="VI" URL="../Necessary Files Not Given 7103--error.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
