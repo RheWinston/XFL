@@ -120,8 +120,8 @@
 		<Item Name="Convert Turbine RPMs.vi" Type="VI" URL="../Convert Turbine RPMs.vi"/>
 	</Item>
 	<Item Name="Module Errors" Type="Folder">
-		<Item Name="Configuration File mismatch 6301--error.vi" Type="VI" URL="../Configuration File mismatch 6301--error.vi"/>
-		<Item Name="Fault Exists Cannot start Auto 6302--error.vi" Type="VI" URL="../Fault Exists Cannot start Auto 6302--error.vi"/>
+		<Item Name="Configuration File mismatch 7101--error.vi" Type="VI" URL="../Configuration File mismatch 7101--error.vi"/>
+		<Item Name="Fault Exists Cannot start Auto 7102--error.vi" Type="VI" URL="../Fault Exists Cannot start Auto 7102--error.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
