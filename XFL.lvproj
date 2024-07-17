@@ -15,6 +15,7 @@
 			<Item Name="EtherCAT Configuration.ctl" Type="VI" URL="../EtherCAT Configuration.ctl"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
+			<Item Name="Auto Modo.lvlib" Type="Library" URL="../Libraries/Auto Mode/Auto Modo.lvlib"/>
 			<Item Name="EtherCAT Model.lvlib" Type="Library" URL="../Libraries/EtherCAT Model/EtherCAT Model.lvlib"/>
 			<Item Name="Hardware Controller.lvlib" Type="Library" URL="../Libraries/Hardware Controller/Hardware Controller.lvlib"/>
 			<Item Name="IOLink.lvlib" Type="Library" URL="../Libraries/IOLink/IOLink.lvlib"/>
@@ -22,6 +23,7 @@
 			<Item Name="UI.lvlib" Type="Library" URL="../Libraries/UI/UI.lvlib"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
+			<Item Name="Test Auto Modo API.vi" Type="VI" URL="../Libraries/Auto Mode/Test Auto Modo API.vi"/>
 			<Item Name="Test EtherCAT Model API.vi" Type="VI" URL="../Libraries/EtherCAT Model/Test EtherCAT Model API.vi"/>
 			<Item Name="Test Hardware Controller API.vi" Type="VI" URL="../Libraries/Hardware Controller/Test Hardware Controller API.vi"/>
 			<Item Name="Test IOLink API.vi" Type="VI" URL="../Libraries/IOLink/Test IOLink API.vi"/>
