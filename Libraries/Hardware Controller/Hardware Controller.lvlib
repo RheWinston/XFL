@@ -39,6 +39,10 @@
 				<Item Name="Start IOLink Connection (Reply Payload)--cluster.ctl" Type="VI" URL="../Start IOLink Connection (Reply Payload)--cluster.ctl"/>
 				<Item Name="Close IOLink Connection Argument--cluster.ctl" Type="VI" URL="../Close IOLink Connection Argument--cluster.ctl"/>
 				<Item Name="Close IOLink Connection (Reply Payload)--cluster.ctl" Type="VI" URL="../Close IOLink Connection (Reply Payload)--cluster.ctl"/>
+				<Item Name="Write Turbine RPM Argument--cluster.ctl" Type="VI" URL="../Write Turbine RPM Argument--cluster.ctl"/>
+				<Item Name="Write Turbine RPM (Reply Payload)--cluster.ctl" Type="VI" URL="../Write Turbine RPM (Reply Payload)--cluster.ctl"/>
+				<Item Name="Write Pump RPM Argument--cluster.ctl" Type="VI" URL="../Write Pump RPM Argument--cluster.ctl"/>
+				<Item Name="Write Pump RPM (Reply Payload)--cluster.ctl" Type="VI" URL="../Write Pump RPM (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -69,6 +73,8 @@
 			<Item Name="Set Error Hardware Controller.vi" Type="VI" URL="../Set Error Hardware Controller.vi"/>
 			<Item Name="Start IOLink Connection.vi" Type="VI" URL="../Start IOLink Connection.vi"/>
 			<Item Name="Close IOLink Connection.vi" Type="VI" URL="../Close IOLink Connection.vi"/>
+			<Item Name="Write Turbine RPM.vi" Type="VI" URL="../Write Turbine RPM.vi"/>
+			<Item Name="Write Pump RPM.vi" Type="VI" URL="../Write Pump RPM.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -163,6 +169,7 @@
 		<Item Name="Cast EtherCAT Data.vi" Type="VI" URL="../Cast EtherCAT Data.vi"/>
 		<Item Name="Cast IOLink Data.vi" Type="VI" URL="../Cast IOLink Data.vi"/>
 		<Item Name="Convert Analog.vi" Type="VI" URL="../Convert Analog.vi"/>
+		<Item Name="Apply Pump Turbine Scaling.vi" Type="VI" URL="../Apply Pump Turbine Scaling.vi"/>
 	</Item>
 	<Item Name="Constants" Type="Folder">
 		<Item Name="System State Broadcast Helper Loop Timeout.vi" Type="VI" URL="../System State Broadcast Helper Loop Timeout.vi"/>
