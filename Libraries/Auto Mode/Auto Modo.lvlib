@@ -21,13 +21,16 @@
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Start Sequence Argument--cluster.ctl" Type="VI" URL="../Start Sequence Argument--cluster.ctl"/>
 				<Item Name="Start Sequence (Reply Payload)--cluster.ctl" Type="VI" URL="../Start Sequence (Reply Payload)--cluster.ctl"/>
-				<Item Name="Check Idle Argument--cluster.ctl" Type="VI" URL="../Check Idle Argument--cluster.ctl"/>
-				<Item Name="Check Idle (Reply Payload)--cluster.ctl" Type="VI" URL="../Check Idle (Reply Payload)--cluster.ctl"/>
+				<Item Name="Stop Sequence Argument--cluster.ctl" Type="VI" URL="../Stop Sequence Argument--cluster.ctl"/>
+				<Item Name="Stop Sequence (Reply Payload)--cluster.ctl" Type="VI" URL="../Stop Sequence (Reply Payload)--cluster.ctl"/>
+				<Item Name="Check Idle State Argument--cluster.ctl" Type="VI" URL="../Check Idle State Argument--cluster.ctl"/>
+				<Item Name="Check Idle State (Reply Payload)--cluster.ctl" Type="VI" URL="../Check Idle State (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
+				<Item Name="Current RPM Index Argument--cluster.ctl" Type="VI" URL="../Current RPM Index Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -37,7 +40,8 @@
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Start Sequence.vi" Type="VI" URL="../Start Sequence.vi"/>
-			<Item Name="Check Idle.vi" Type="VI" URL="../Check Idle.vi"/>
+			<Item Name="Stop Sequence.vi" Type="VI" URL="../Stop Sequence.vi"/>
+			<Item Name="Check Idle State.vi" Type="VI" URL="../Check Idle State.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -55,6 +59,7 @@
 		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
+		<Item Name="Current RPM Index.vi" Type="VI" URL="../Current RPM Index.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
