@@ -124,6 +124,8 @@
 		<Item Name="Sequence Check Drive RPM.vi" Type="VI" URL="../Sequence Check Drive RPM.vi"/>
 		<Item Name="Sequence RPM in Range.vi" Type="VI" URL="../Sequence RPM in Range.vi"/>
 		<Item Name="Sequence Check Next RPM.vi" Type="VI" URL="../Sequence Check Next RPM.vi"/>
+		<Item Name="Sequence Stop.vi" Type="VI" URL="../Sequence Stop.vi"/>
+		<Item Name="Create Auto Folder Path.vi" Type="VI" URL="../Create Auto Folder Path.vi"/>
 	</Item>
 	<Item Name="Module Error" Type="Folder">
 		<Item Name="Sequence Timeout 6301--error.vi" Type="VI" URL="../Sequence Timeout 6301--error.vi"/>
