@@ -43,6 +43,8 @@
 				<Item Name="Write Turbine RPM (Reply Payload)--cluster.ctl" Type="VI" URL="../Write Turbine RPM (Reply Payload)--cluster.ctl"/>
 				<Item Name="Write Pump RPM Argument--cluster.ctl" Type="VI" URL="../Write Pump RPM Argument--cluster.ctl"/>
 				<Item Name="Write Pump RPM (Reply Payload)--cluster.ctl" Type="VI" URL="../Write Pump RPM (Reply Payload)--cluster.ctl"/>
+				<Item Name="Stop Drives Argument--cluster.ctl" Type="VI" URL="../Stop Drives Argument--cluster.ctl"/>
+				<Item Name="Stop Drives (Reply Payload)--cluster.ctl" Type="VI" URL="../Stop Drives (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -75,6 +77,7 @@
 			<Item Name="Close IOLink Connection.vi" Type="VI" URL="../Close IOLink Connection.vi"/>
 			<Item Name="Write Turbine RPM.vi" Type="VI" URL="../Write Turbine RPM.vi"/>
 			<Item Name="Write Pump RPM.vi" Type="VI" URL="../Write Pump RPM.vi"/>
+			<Item Name="Stop Drives.vi" Type="VI" URL="../Stop Drives.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
