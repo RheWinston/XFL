@@ -31,6 +31,7 @@
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
 				<Item Name="Current RPM Index Argument--cluster.ctl" Type="VI" URL="../Current RPM Index Argument--cluster.ctl"/>
+				<Item Name="Auto Mode Status Updated Argument--cluster.ctl" Type="VI" URL="../Auto Mode Status Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -60,6 +61,7 @@
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
 		<Item Name="Current RPM Index.vi" Type="VI" URL="../Current RPM Index.vi"/>
+		<Item Name="Auto Mode Status Updated.vi" Type="VI" URL="../Auto Mode Status Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
