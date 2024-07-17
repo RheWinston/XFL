@@ -60,10 +60,12 @@
 				<Item Name="Launch Hardware Controller Argument--cluster.ctl" Type="VI" URL="../Launch Hardware Controller Argument--cluster.ctl"/>
 				<Item Name="Register Helper Loop for Hardware Contrller Broadcast Argument--cluster.ctl" Type="VI" URL="../Register Helper Loop for Hardware Contrller Broadcast Argument--cluster.ctl"/>
 				<Item Name="Start Logger Module Argument--cluster.ctl" Type="VI" URL="../Start Logger Module Argument--cluster.ctl"/>
+				<Item Name="Start Auto Mode Module Argument--cluster.ctl" Type="VI" URL="../Start Auto Mode Module Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Launch Hardware Controller.vi" Type="VI" URL="../Launch Hardware Controller.vi"/>
 			<Item Name="Register Helper Loop for Hardware Contrller Broadcast.vi" Type="VI" URL="../Register Helper Loop for Hardware Contrller Broadcast.vi"/>
 			<Item Name="Start Logger Module.vi" Type="VI" URL="../Start Logger Module.vi"/>
+			<Item Name="Start Auto Mode Module.vi" Type="VI" URL="../Start Auto Mode Module.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
@@ -119,6 +121,7 @@
 	</Item>
 	<Item Name="Module Errors" Type="Folder">
 		<Item Name="Configuration File mismatch 6301--error.vi" Type="VI" URL="../Configuration File mismatch 6301--error.vi"/>
+		<Item Name="Fault Exists Cannot start Auto 6302--error.vi" Type="VI" URL="../Fault Exists Cannot start Auto 6302--error.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
