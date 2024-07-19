@@ -30,6 +30,7 @@
 			<Item Name="Test Logger API.vi" Type="VI" URL="../Libraries/Logger/Test Logger API.vi"/>
 			<Item Name="Test UI API.vi" Type="VI" URL="../Libraries/UI/Test UI API.vi"/>
 		</Item>
+		<Item Name="Untitled 2.vi" Type="VI" URL="../../../../Desktop/Untitled 2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="AagNtxHelper.dll" Type="Document" URL="/&lt;instrlib&gt;/_Ackermann Automation/EtherCAT Lib/IntimeNtx/Private/Dll/Dlls/AagNtxHelper.dll"/>
