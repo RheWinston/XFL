@@ -178,6 +178,7 @@
 		<Item Name="System State Broadcast Helper Loop Timeout.vi" Type="VI" URL="../System State Broadcast Helper Loop Timeout.vi"/>
 		<Item Name="Torque Sensor Range--constant.vi" Type="VI" URL="../Torque Sensor Range--constant.vi"/>
 		<Item Name="Flow Rate Sensor Range--constant.vi" Type="VI" URL="../Flow Rate Sensor Range--constant.vi"/>
+		<Item Name="Density Sensor Range--constant.vi" Type="VI" URL="../Density Sensor Range--constant.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
